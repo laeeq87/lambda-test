@@ -1,7 +1,7 @@
 {
-  "name": "stratifi-sendsms",
+  "name": "LAMBDA-TEST",
   "version": "1.0.0",
-  "description": "StratiFi Send SMS Lambda Function",
+  "description": "lambda test function",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,20 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/verifynder/stratifi-sendsms.git"
+    "url": "git+https://github.com/laeeq87/lambda-test.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/verifynder/stratifi-sendsms/issues"
-  },
-  "homepage": "https://github.com/verifynder/stratifi-sendsms#readme",
+  "author": "Laeeq Ur Rehman",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "json2csv": "^5.0.1",
-    "moment-timezone": "^0.5.28",
-    "mongoose": "^5.9.13",
-    "ssh2-sftp-client": "^5.1.2",
-    "twilio": "^3.43.0"
+    "moment-timezone": "^0.5.28"
   }
 }
