@@ -17,4 +17,4 @@ phases:
 
     post_build:
         commands:
-            -echo Deployment Completed on `date`
+            - echo Deployment Completed on `date`
