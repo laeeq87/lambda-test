@@ -1,20 +1,22 @@
 {
-  "name": "LAMBDA-TEST",
+  "name": "lambda-test",
   "version": "1.0.0",
-  "description": "lambda test function",
-  "main": "index.js",
+  "description": "",
+  "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "locally": "node -e \"console.log(require('./index').handler({}));\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/laeeq87/lambda-test.git"
   },
-  "author": "Laeeq Ur Rehman",
+  "keywords": [
+    "test"
+  ],
+  "author": "laeeq",
   "license": "MIT",
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "moment-timezone": "^0.5.28"
-  }
+  "bugs": {
+    "url": "https://github.com/laeeq87/lambda-test/issues"
+  },
+  "homepage": "https://github.com/laeeq87/lambda-test#readme"
 }
