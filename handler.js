@@ -1,10 +1,15 @@
-'use strict';
+const moment = require("moment");
 
-module.exports.hello = async event => {
+module.exports.logger = async event => {
   try {
     return {
       statusCode: 200,
-      body: `Lambda Test Function`
+      body: JSON.stringify({
+
+        message: "Lambda Test Function",
+        version: "v1.0",
+        timestamp: moment().unix()
+      })
     };
 
   } catch (error) {

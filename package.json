@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/laeeq87/lambda-test/issues"
   },
-  "homepage": "https://github.com/laeeq87/lambda-test#readme"
+  "homepage": "https://github.com/laeeq87/lambda-test#readme",
+  "dependencies": {
+    "moment": "^2.26.0"
+  }
 }
