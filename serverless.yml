@@ -7,7 +7,7 @@ provider:
   memorySize: 128
   timeout: 3
 functions:
-  hello:
+  logger:
     handler: handler.logger
     events:
       -http:
