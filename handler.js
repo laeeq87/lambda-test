@@ -6,7 +6,7 @@ module.exports.logger = async event => {
     statusCode: 200,
     body: JSON.stringify({
       message: "Lambda Test Function",
-      version: "v2.0",
+      version: "v3.0",
       timestamp: moment().unix()
     })
   };
